@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 @media (max-width:481px) {
   h1 {
     letter-spacing: 0.6rem !important;
@@ -15,7 +16,7 @@
 }
 
 
-body {
+body, html, main {
   padding: 0;
   margin: 0;
 }
@@ -24,14 +25,11 @@ main {
   display: grid;
   place-content: center;
   place-items: center;
-  height: 95vh;
-  width: 100%;
-  overflow: hidden;
+  height: 100vh;
   text-align: center;
 
   background: #e9e9e9;
-  margin: 0;
-  padding: 0;
+ 
 }
 
 h1 {
@@ -150,9 +148,4 @@ button:disabled {
 
 .github-fork-ribbon:before {
   background-color: black !important;
-}
-
-.github-fork-ribbon {
-  top: -0.8em !important;
-  right: -1em !important;
 }
