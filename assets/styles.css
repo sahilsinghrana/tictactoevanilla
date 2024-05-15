@@ -2,7 +2,25 @@
   box-sizing: border-box;
 }
 
+@media (max-width:481px) {
+  h1 {
+    letter-spacing: 0.6rem !important;
+    text-indent: 0.6rem !important;
+    font-size: 2.8em !important;
+  }
+
+  .board {
+    padding: 20px 2em !important
+  }
+}
+
+
 body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
   display: grid;
   place-content: center;
   place-items: center;
@@ -18,7 +36,8 @@ body {
 
 h1 {
   letter-spacing: 1rem;
-  font-size: 3rem;
+  text-indent: 1rem;
+  font-size: 3em;
   color: rgba(131, 107, 41, 0.507);
   font-weight: 900;
   font-family: math;
@@ -55,15 +74,14 @@ button:disabled {
 }
 
 button:disabled {
-  animation: swing-in-top-fwd 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-    forwards;
+  animation: swing-in-top-fwd 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
 
 .playBtn {
   height: 50px;
   width: 80px;
   margin: 6px;
-  font-size: 2rem;
+  font-size: 1.8em;
 }
 
 .playBtn.win {
@@ -83,7 +101,7 @@ button:disabled {
 
   place-items: center;
 
-  padding: 20px 70px;
+  padding: 20px 60px;
   margin: 20px;
 
   background: #e0e0e083;
@@ -91,8 +109,7 @@ button:disabled {
 }
 
 .board.init {
-  animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-    forwards;
+  animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
 
 .board .boardRow {
@@ -120,6 +137,7 @@ button:disabled {
   color: gray;
   font-size: 2rem;
   letter-spacing: 3px;
+  text-indent: 3px;
   font-weight: 900;
 }
 
@@ -128,4 +146,13 @@ button:disabled {
   width: 100px;
   font-size: 1.2rem;
   margin: 5px;
+}
+
+.github-fork-ribbon:before {
+  background-color: black !important;
+}
+
+.github-fork-ribbon {
+  top: -0.8em !important;
+  right: -1em !important;
 }
