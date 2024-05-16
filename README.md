@@ -1,7 +1,8 @@
-<h1 align="center">
-	<br>
-	<img  src="media/TicTacToeVanillaSS.png" alt="TicTacToeVanilla">
-	<br>
-</h1>
+# TicTacToe Vanilla JS Implementation
 
-[Demo](https://sahilsinghrana.github.io/tictactoevanilla/)
+## [@sahilsinghrana/tictactoe.js](https://github.com/sahilsinghrana/tictactoe.js) implementation with Vanilla JS
+
+- [Deployment](https://sahilsinghrana.github.io/tictactoevanilla/)
+
+![TicTacToe](media/TicTacToeVanillaSS.png)
+
